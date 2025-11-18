@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
+
+        //creamos un objeto de cada tipo
         Calculable basica = new CalculadoraBasica();
         Calculable cientifica = new CalculadoraCientifica();
 

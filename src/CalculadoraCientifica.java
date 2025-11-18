@@ -1,4 +1,6 @@
 public class CalculadoraCientifica implements Calculable {
+
+    //volvemos a sobrescribir el metodo calcular y ponemos un switch para las dos operaciones cientificas
     @Override
     public double calcular(double a, double b, String operacion) {
         switch (operacion.toLowerCase()) {

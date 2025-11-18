@@ -1,4 +1,9 @@
 public class CalculadoraBasica implements Calculable {
+
+    /*sobrescribimos el metodo calcular y lo adaptamos a las
+    operaciones básicas de suma, resta, multiplicacion y division
+    con un bucle switch. Tiramos errores si nos esperamos algún error.
+     */
     @Override
     public double calcular(double a, double b, String operacion) {
         switch (operacion.toLowerCase()){
